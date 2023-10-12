@@ -1,17 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-function Navbar(){
-    return(
-    <div className="navbar">
-        <h2>Home</h2>
-        <h2>Blogs</h2>
-        <h2>About me</h2>
-        <h2>Contact</h2>
-    </div>
-    )
-}
+import Navbar from './components/navbar.jsx'
 function App() {
   const [count, setCount] = useState(0)
 

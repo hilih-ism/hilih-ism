@@ -23,10 +23,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 5px;
 }
 .navbar h2{
-  padding: 1rem 3rem;
+  padding: 1rem 7rem;
 }
 a {
   font-weight: 500;
