@@ -3,4 +3,9 @@
   margin: 0 auto;
   padding: 2rem;
 }
+.card-container{
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  flex-wrap: nowrap;
+}
 
