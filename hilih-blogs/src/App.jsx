@@ -1,19 +1,8 @@
-import { useState } from 'react'
-import './App.css'
-import Navbar from './components/navbar.jsx'
-import Card from "./components/card.jsx";
-
+import { RouterProvider } from "react-router-dom";
+import Home from "./pages/home";
 function App() {
   return (
-    <>
-      <Navbar/>
-        <div className={"card-container"}>
-            <Card/>
-            <Card/>
-            <Card/>
-        </div>
-     </>
-  )
-}
-
+    <Home/>
+  );
+};
 export default App
